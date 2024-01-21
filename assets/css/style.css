@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+#introduce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "lato", sans-serif;
+}
+
+img{
+    border-radius: 50%;
+    box-shadow: 0 0 30px white;
+}
+
+img:hover{
+    cursor: zoom-in;
+
+}
+
+header{
+    background-color: #782221;
+    margin-top: auto;
+}
+
+
+div{
+    color: white;
+}
+
+#flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #2c1d27;
+    text-decoration-color: white;
+}
+
+body{
+    display: block;
+    border-top: #2c1d27;
+    margin: auto;
+    width: 1160px;
+    border-color: black;
+
+
+    
+}
+
+#description{
+    text-decoration-color: white;
+    background-color: #782221;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: left;
+    display: flex;
+    height: 1090px;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border-right-color: black;
+    
+}
+
+h3{
+    background-color:   #dbc2a4;
+    font-family: "lato", sans-serif;
+}
+
+h3:hover{
+    background-color: #782221;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #782221;
+}
+
+#social-media{
+    height: 50px;
+}
