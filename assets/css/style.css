@@ -39,7 +39,7 @@ div{
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #2c1d27;
-    text-decoration-color: white;
+    text-decoration: none;
 }
 
 body{
@@ -96,4 +96,10 @@ footer{
 #social-media{
     height: 50px;
     width: 50px;
+}
+
+#social-media:hover{
+    cursor: pointer;
+    background-color: white;
+    opacity: 0,9;
 }
